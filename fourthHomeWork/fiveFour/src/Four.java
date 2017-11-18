@@ -9,7 +9,7 @@ public class Four {
             int a = (int)(Math.random() * 50);
             int minutes = calendar.get(Calendar.MINUTE);
             int seconds = calendar.get(Calendar.SECOND);
-d            int b = (int)((seconds + minutes) / 2.4);
+            int b = (int)((seconds + minutes) / 2.4);
             System.out.println(a+"+"+b+"=");
             int sum;
             sum = in.nextInt();
